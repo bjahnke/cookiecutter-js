@@ -1,6 +1,15 @@
 # cookiecutter-js
 A template for creating web applications. It uses webpack for bundling and building the application, and the codebase primarily consists of JavaScript, HTML, and CSS.
 
+## Use this template
+### New Repo with Github UI 
+On this template's repository navigate to `Use this template > Create a new repository` 
+
+### With Cookiecutter CLI
+1. Ensure cookiecutter is installed (follow install guide [here](https://github.com/cookiecutter/cookiecutter))
+2. if pipx is still recommended in cookiecutter install, run: 
+`pipx run cookiecutter gh:bjahnke/cookiecutter-js`
+
 ## Project Structure
 The project structure includes a source directory (`src/`) containing the main HTML, JavaScript, and CSS files. Configuration for webpack is split into common, development, and production files. The project also includes an ESLint configuration file for maintaining code quality.
 

@@ -1,7 +1,7 @@
 {
-  "name": "odin-restaurant-page",
+  "name": "{{cookiecutter.project_name}}",
   "version": "1.0.0",
-  "description": "The Odin Project: [Restaurant Page](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page)",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
